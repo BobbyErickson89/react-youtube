@@ -8,9 +8,7 @@ import VideoList from  './components/video_list';
 import VideoDetail from './components/video';
 import registerServiceWorker from './registerServiceWorker';
 import {YOUTUBE_API_KEY} from "./constants"; //constants is ignored by git.  We don't want api_keys commited.
-// const API_KEY = 'AIzaSyCZ0J_1pL_u0YttNcVEfK2xgQUxs5CLJEY';
 
-// Create a new component.  This component should produce some HTML.
 class App extends Component {
     constructor(props){
         super(props);
@@ -52,7 +50,7 @@ class App extends Component {
     }
 }
 
-// Take this component's generated HTML and put it on the page (in the DOM).
+// Take our react components and generating them in our index.html file.
 ReactDOM.render(<App />, document.querySelector('#root'));
 
 //TODO: look up what registerServieWorker does.  Came with create-react-app.

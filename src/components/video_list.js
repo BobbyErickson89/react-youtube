@@ -14,7 +14,7 @@ const VideoList = (props) => {
 
     return (
         <ul className="col-md-4">
-            {videoItems} {/* React knows that is is an array or react components, and is smart enough to render them */}
+            {videoItems}
         </ul>
     );
 };
