@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.search-bar {
+  width: 400px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin: 15px;
+}
+
+.video-list:hover {
+  cursor: pointer;
+}
+
+.video-details {
+  margin-top: 15px;
+  border: 1px solid lightgray;
+  padding: 10px;
+}
+
+.video-title {
+  display: inline-block;
+  color: blue;
+}
